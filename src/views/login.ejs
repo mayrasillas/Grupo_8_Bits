@@ -9,28 +9,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Login</title>
 <link href="css/login.css" rel="stylesheet">
-<!--<link href="css/styles.css" rel="stylesheet"> -->
+<link href="css/syles.css" rel="stylesheet">
 
 </head>
 <body >
-<form action="/login" method="post" style="background-image: url('img/edificios.jpg');">
+
+<form action="/action_page.php" method="post" style="background-image: url('img/edificios.jpg');">
   <div class="imgcontainer">
     <img src="img/avatar.jpg" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">
-    <label for="uname" class="label"><b>Email</b></label>
-    <center><input type="email" placeholder="Enter email" name="email" required value="<%=locals.oldData ? oldData.email : null %>">
-      <%if(locals.errors && errors.email){%>
-        <div class="text-danger">
-          <%= errors.email.msg%>
-        </div>
-      <%}%>
-    </center>
+    <label for="uname" class="label"><b>Username</b></label>
+    <center><input type="text" placeholder="Enter Username" name="uname" required></center>
     <br>
 
     <label for="psw" class="label"><b>Password</b></label>
-    <center><input type="password" placeholder="Enter Password" name="password" required></center>
+    <center><input type="password" placeholder="Enter Password" name="psw" required></center>
         
     <center><button type="submit">Login</button> </center>
     <label>

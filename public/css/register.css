@@ -2,10 +2,6 @@ body {
     background-image: url("./img/register.jpg");
 }
 
-.text-danger{
-  color: rgb(175, 0, 0);
-}
-
 form {
     margin: 0 auto;
     width: 40vw;
@@ -58,30 +54,15 @@ form {
   .button-register {
     padding-left: 90px; 
   }
-
-  input{
-    border-radius: 5px;
-    height: 35px;
-  }
-  .fill{
-    border: 2px solid rgba(209, 0, 0, 0.87);
-  }
-
   
   button {
-    margin-left: .1em;
-    height: 40px;
-    width: 100px;
+    margin-left: .5em;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #000;
     color: white;
     padding: 10px;
     border-radius: 1em;
     border: none;
-  }
-
-  button:hover{
-    background-color: rgba(0, 0, 0, 0.431);
   }
 
   .fondo-registro {

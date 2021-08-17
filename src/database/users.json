@@ -1,123 +1,44 @@
-[
-  {
-    "id": 1,
-    "firstName": "Felipe",
-    "lastName": "Alvares",
-    "email": "felip.alva@gmail.com",
-    "city": "Leon",
-    "address": "Monumento del noreste, 134",
-    "codigo_postal": "89065",
-    "password": "$2a$10$Zgrxt5dRYCgDGWjJJloOjeeOpJyRPMTUCxpHnNeMenBoqfym0w1DS",
-    "image": "group-1628270377645.jpg"
-  },
-  {
-    "id": 2,
-    "firstName": "Oscar",
-    "lastName": "Fernández",
-    "email": "oscaredu@gmail.com",
-    "city": "Morelia",
-    "address": "LOmas de hidalgo, 145",
-    "codigo_postal": "58250",
-    "password": "$2a$10$oDM0Xj9E5b7GzeWl.fOEl.prr.r.k95UYZF1NyFJe2U8wu3GQf0XK",
-    "image": "avatar.jpg"
-  },
-  {
-    "id": 3,
-    "firstName": "Omar",
-    "lastName": "Campo",
-    "email": "omardu@gmail.com",
-    "city": "Monterrey",
-    "address": "Vasco de quiroga, #1234",
-    "codigo_postal": "58256",
-    "password": "$2a$10$fwoHtBy4lio7whio2DHyNOQ2sBfjlNPwZaZdOYZcGAfo9tRFqGG8G",
-    "image": "group-1628285793922.jpeg"
-  },
-  {
-    "id": 4,
-    "firstName": "Andrea",
-    "lastName": "Martinez",
-    "email": "adnri_lila@live.com.mx",
-    "city": "Guadalajara",
-    "address": "Monumento del noreste, 134",
-    "codigo_postal": "89065",
-    "password": "$2a$10$CEzUNyt4SPTTvntxHTVG7uuAGbAlGFyKlcxOwpM46aTkK88BozftW",
-    "image": "group-1628286061269.jpg"
-  },
-  {
-    "id": 5,
-    "firstName": "Karina",
-    "lastName": "Abraham",
-    "email": "kari9@gmail.com7",
-    "city": "Yucatan",
-    "address": "Monumento del noreste, 134",
-    "codigo_postal": "89065",
-    "password": "$2a$10$8rtncM0HKRAFgHDmQiimwuDz8p0Gk7GsDoeaMdFAyl.rtNTck1Lkm",
-    "image": "group-1628360354313.jpeg"
-  },
-  {
-    "id": 6,
-    "firstName": "lalo",
-    "lastName": "Hernandez",
-    "email": "lal@gmail.com",
-    "city": "Ixtapa",
-    "address": "Monumento del noreste, 134",
-    "codigo_postal": "89065",
-    "password": "$2a$10$A6qW7w74kPMtdjgzOF2yWOHOQm4RuemhOyawSyLZhdzigwt1TuOom",
-    "image": "group-1628360388393.jpg"
-  },
-  {
-    "id": 7,
-    "firstName": "Oscar ",
-    "lastName": "Fernández Durán",
-    "email": "oscarfedu@gmail.com",
-    "city": "Morelia",
-    "address": "",
-    "codigo_postal": "",
-    "password": "$2a$10$pJLB2fO6cixYpf9IIQXyCOyBisTSXENvAx85VKeI0eZJoyfdLz9Qu",
-    "image": "avatar.jpg"
-  },
-  {
-    "id": 8,
-    "firstName": "Oscar ",
-    "lastName": "Fernández Durán",
-    "email": "oscarfd@gmail.com",
-    "city": "Morelia",
-    "address": "Villas del pedregal, #1234",
-    "codigo_postal": "58290",
-    "password": "$2a$10$mFI1.4V98NCSjy3UdZRzmOB2OpS6ZVOYe8BDk73aMVnL/EpxHuEsy",
-    "image": "avatar.jpg"
-  },
-  {
-    "id": 9,
-    "firstName": "Mario",
-    "lastName": "Garcia",
-    "email": "",
-    "city": "",
-    "address": "",
-    "codigo_postal": "",
-    "password": "$2a$10$kgBQFy.2908r5m6..M38OOaEc9MRBxkXwvc.QEXJcoVlIgnw0E7uS",
-    "image": "avatar.jpg"
-  },
-  {
-    "id": 10,
-    "firstName": "Mario",
-    "lastName": "Garcia",
-    "email": "mario123@gmail.com",
-    "city": "Monterrey",
-    "address": "Lomas verde, #156",
-    "codigo_postal": "45678",
-    "password": "$2a$10$Dx82/OuEm9uhZpq1v36miOstJkd9VtLiKzMEehxZEcII2pQHK4Pbi",
-    "image": "group-1628372446509.jpeg"
-  },
-  {
-    "id": 11,
-    "firstName": "Mayra",
-    "lastName": "Sillas",
-    "email": "mayrasillas97@gmail.com",
-    "city": "Monterrey",
-    "address": "Vista regia 110",
-    "codigo_postal": "64988",
-    "password": "$2a$10$saRIhe.Xlom2lBGtqF7RQ.VWg4pk1WVL49BqMT7MMqBqg0Eq2m6Zm",
-    "image": "group-1629163999679.png"
-  }
-]
+[{
+    "id": 14,
+    "first_name": "Ronica",
+    "last_name": "Monday",
+    "email": "rmondayd@phpbb.com",
+    "password": "EL5utEV3"
+  }, {
+    "id": 15,
+    "first_name": "Alix",
+    "last_name": "Gabotti",
+    "email": "agabottie@t.co",
+    "password": "HFTJKG"
+  }, {
+    "id": 16,
+    "first_name": "Bat",
+    "last_name": "Saer",
+    "email": "bsaerf@stanford.edu",
+    "password": "my1z0T25K"
+  }, {
+    "id": 17,
+    "first_name": "Francklin",
+    "last_name": "Rippingale",
+    "email": "frippingaleg@dion.ne.jp",
+    "password": "tEqug4"
+  }, {
+    "id": 18,
+    "first_name": "Yoko",
+    "last_name": "Dugget",
+    "email": "yduggeth@samsung.com",
+    "password": "2bN4H5rxcA1L"
+  }, {
+    "id": 19,
+    "first_name": "Allard",
+    "last_name": "Rosengarten",
+    "email": "arosengarteni@utexas.edu",
+    "password": "gVvlkn886Ogk"
+  }, {
+    "id": 20,
+    "first_name": "Theresina",
+    "last_name": "Ransfield",
+    "email": "transfieldj@cbsnews.com",
+    "password": "Ra0ovUBIM8vM"
+  }]
+  

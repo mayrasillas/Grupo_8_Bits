@@ -17,7 +17,7 @@
 
 <div class="fondo-registro" style="background-image: url('img/register.jpg');">
     <h1>Agregar Producto</h1>
-   <form action="/users/crearProducto" method="POST" enctype="multipart/form-data">
+   <form action="/users/crearProducto" method="POST">
     
         <ul>    
         <li>
@@ -42,10 +42,10 @@
           <label for="precio">Precio:</label>
           <input type="number" id="precio" name="price">
       </li>
-      <li>
-        <label for="group-image">Foto del producto:</label>
-        <input type="file" id="image" name="image">
-      </li>
+       <!-- <li>
+            <label for="imagen">Imagen:</label>
+            <input type="file" id="image" name="imagen">
+        </li> -->
           <li>
             <label for="Categoria">Categoría:</label>
             <input type="text" multiple name="category" id="categoria" list="drawfemails" required size="64" placeholder="">

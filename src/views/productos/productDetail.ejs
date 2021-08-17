@@ -40,12 +40,10 @@
             </div>
             <div id="precio">
                 <h4><%="Precio: $"+ product.price%></h4>
-                <% if(locals.isLogged && locals.isPermited){ %>
-                    <button id="boton-edit"><a href="/users/edit/<%=product.id%>" class="action-button edit"><img src="../img/edit.svg" width="15"></a> Editar</button>
-                    <form action="/users/<%=product.id%>?_method=DELETE" method="POST" style="display: inline-flex">
-                        <button id="boton-edit" type="submit" class="action-button delete"><img src="../img/delete.svg" width="15"> Eliminar</button>
-                    </form>
-                <%}%>
+                <button id="boton-edit"><a href="/users/edit/<%=product.id%>" class="action-button edit"><img src="../img/edit.svg" width="15"></a> Editar</button>
+                <form action="/users/<%=product.id%>?_method=DELETE" method="POST" style="display: inline-flex">
+                    <button id="boton-edit" type="submit" class="action-button delete"><img src="../img/delete.svg" width="15"> Eliminar</button>
+                </form>
             </div>
         </div>
         <div id="part3">

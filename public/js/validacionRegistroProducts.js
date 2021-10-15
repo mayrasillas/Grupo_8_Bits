@@ -12,10 +12,17 @@ window.addEventListener('load', function(){
     let cityError = document.querySelector('#cityError')
     let address = document.querySelector('#address')
     let addressError = document.querySelector('#addressError')
-
+    let imageError = document.querySelector('#imageError')
+    let image = document.querySelector('#image')
     let categorias=["Casa","Departamento", "Local", "Terreno", "Oficina"]
+    let acceptedExtensions = ['.jpg', '.png', '.gif', '.jpeg'];
+    
 
 
+
+    function getFileExtension(fileName){
+        return fileName.split('.').pop();
+    }
     // desarrolla tu codigo aca 
     button.addEventListener("click", function(event){
         event.preventDefault();
@@ -26,6 +33,10 @@ window.addEventListener('load', function(){
         }
         if(price.value.length < 1  || Number.isInteger(price.value)){
             errores.price = 'Debe de escribir el precio y debe ser un número entero';
+        }
+        let fileExtension = getFileExtension(image.value);
+        if (!acceptedExtensions.includes(fileExtension) && image.value.length>0) {
+            errores.image = 'Debes poner una imagen válida con extensiones permitidas: .jpg .png .gif .jpeg';
         }
 
        // let b=false;
@@ -93,6 +104,13 @@ window.addEventListener('load', function(){
             }
             else{
                 address.classList.remove("fill");
+            }
+            imageError.innerText = (errores.image) ? errores.image : '';
+            if(errores.image){
+                image.classList.add("fill");
+            }
+            else{
+                image.classList.remove("fill");
             }
         }
         else{

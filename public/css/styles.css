@@ -372,66 +372,8 @@ body{
     line-height: 1.6em;
     margin: 0;
 }
-.conte{
-    width: 25%;
-    height: 60vh;
-    box-shadow:0 0 7px #111 ;
-    margin: 30px 30px;
 
-}
-.conte .card{
-    height: 20vh;
-    width: 100%;
-    margin-bottom: 32%;
-}
-.card img{
-    margin: auto;
-    display: block;
-}
-.conte img{
-    width: 96%;
-}
-.conte{
-     background-color: white;
-}
 
-.informacion{
-    height: 80px;
-    width: 100%;
-}
-.informacion h1{
-    font-family: sans-serif;
-    font-size: 1.2em;
-    text-align: center;
-    color: #333;
-    margin-bottom: -10px;
-}
-.informacion p{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: .9em;
-    color: #555;
-}
-.precio {
-    height:50px;
-    width: 85%;
-    margin: auto;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.box-precio{
-    width: 80px;
-}
- .precio1{
-    color: red;
-    font-size: .8em;
-}
-.precio .precio2{
-    font-size: 1.5em;
-}
 .shoping{
     font-size: 1.5em;
     color: #555;
@@ -469,21 +411,12 @@ body{
     cursor: pointer;
   }
 
-  .borra{
-      margin:0;
-      height: 100%;
-      border: solid 3px yellow;
-  }
 
   button a{
       color: white;
       text-decoration: none;
   }
 
-  .button-detalle{
-    padding-top: 25%;
-    padding-left: 35%;
-  }
 
 
 @media (max-width:1600px)

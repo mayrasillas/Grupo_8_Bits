@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `heroku_4d9c94641d2f658` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `heroku_4d9c94641d2f658`;
+CREATE DATABASE  IF NOT EXISTS `bits` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `bits`;
 
 
 DROP TABLE IF EXISTS `products`;
@@ -8,7 +8,7 @@ CREATE TABLE products(
   id int NOT NULL AUTO_INCREMENT, 
   city VARCHAR(500) not null,
   description VARCHAR(3000) not null,
-  price VARCHAR(20) NOT NULL,
+  price INT NOT NULL,
   image VARCHAR(500) not null,
   category VARCHAR(500) not null,
   address VARCHAR(500) not null,

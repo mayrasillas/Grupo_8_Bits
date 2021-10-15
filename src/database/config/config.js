@@ -21,4 +21,3 @@ module.exports = {
     "dialect": "mysql"
   }
 }
-//mysql://b2f0d88d19bdca:85e0f270@us-cdbr-east-04.cleardb.com/heroku_4d9c94641d2f658?reconnect=true

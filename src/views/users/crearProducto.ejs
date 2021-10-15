@@ -71,9 +71,11 @@
         <label for="group-image">Foto del producto:</label>
         <input type="file" id="image" name="image"
         class = "<%=locals.errors && errors.image ? 'fill' : null %>" value= "<%=locals.oldData ? oldData.image : null %>">
+        <div id="imageError" class="text-danger">
+        </div> 
         <%if(locals.errors && errors.image){%>
           <div class="text-danger">
-            <%= errors.city.msg%>
+            <%= errors.image.msg%>
           </div>
         <%}%>
       </li>

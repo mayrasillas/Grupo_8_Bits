@@ -30,7 +30,6 @@ const controller = {
         });
     },
     register: (req, res) => {
-       
         res.status(200).render("register");
     },
     addUser: (req, res) => {
@@ -101,17 +100,15 @@ const controller = {
             }
         }).then((userToLogin) => { 
            
-            console.log(userToLogin);
-
             if(userToLogin){
                 let isPassword = bcryptjs.compareSync(req.body.password, userToLogin.password);
                 if(isPassword){ 
                     delete userToLogin.password
                     req.session.userLogged = userToLogin;
 
-                //    if(req.body.remember) {
-                  //      res.cookie('userEmail', req.body.email, { maxAge: (1000 * 60) * 2})
-                   // }
+                    if(req.body.remember) {
+                        res.cookie('userEmail', req.body.email, { maxAge: (1000 * 60)*10})
+                    }
                     return res.redirect("/perfil");
                 }
                 return res.render('login', {
